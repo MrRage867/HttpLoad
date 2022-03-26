@@ -7,6 +7,8 @@ A Website load testing script for testing your websites.
 
 This is a script for testing YOU OWN WEBSITES by putting a very large load onto it.
 
+**NOTICE** If you are running this on linux, you should run "ulimit -n 999999" to prevent the script from crashing whilest using a high amount of threads. 
+
 ## Install
 ```
 git clone https://github.com/MrRage867/HttpLoad.git
