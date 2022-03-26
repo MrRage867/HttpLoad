@@ -13,7 +13,7 @@ git clone https://github.com/MrRage867/HttpLoad.git
 ```
 >Usage:
 ```
-python3 httpload.py
+python3 httpload.py --help
 
     --help           show this help
     --host           put the target url
@@ -33,3 +33,6 @@ python3 httpload.py
     #      https://github.com/MrRage867/HttpLoad/     #
     #-------------------------------------------------#
 ```
+>Example:
+```
+python3 httpload.py --host https://www.yoursite.tld/ --threads 1000 --rand-queries --handshake --duration 120
