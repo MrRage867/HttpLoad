@@ -11,3 +11,25 @@ This is a script for testing YOU OWN WEBSITES by putting a very large load onto 
 ```
 git clone https://github.com/MrRage867/HttpLoad.git
 ```
+>Usage:
+```
+python3 httpload.py
+
+    --help           show this help
+    --host           put the target url
+                     Example: --host https://www.yoursite.tld/
+    --port           port to attack on (leave blank to choose port for you)
+                     Example: --port 8080
+    --threads        number of threads to attack with
+                     Example: --threads 500
+    --duration       time in seconds before flood finishes
+                     Example: --duration 120
+    --handshake      does the full http handshake
+    --rpc            number of requests to send in each connection
+                     Example: --rpc 64
+    --rand-queries   random queries (12 strings)
+
+    #-------------------------------------------------#
+    #      https://github.com/MrRage867/HttpLoad/     #
+    #-------------------------------------------------#
+```
