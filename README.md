@@ -7,11 +7,11 @@ A Website load testing script for testing your websites.
 
 This is a script for testing YOU OWN WEBSITES by putting a very large load onto it.
 
->Install
+##Install
 ```
 git clone https://github.com/MrRage867/HttpLoad.git
 ```
->Usage:
+##Usage
 ```
 python3 httpload.py --help
 
@@ -33,6 +33,8 @@ python3 httpload.py --help
     #      https://github.com/MrRage867/HttpLoad/     #
     #-------------------------------------------------#
 ```
->Example:
+##Example
 ```
 python3 httpload.py --host https://www.yoursite.tld/ --threads 1000 --rand-queries --handshake --duration 120
+```
+
